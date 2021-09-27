@@ -2,7 +2,7 @@ public class Akshay implements Tradable, Domesticatable, Drivable {
     private int maxSpeed;
 
     public Akshay() {
-        this.maxSpeed = 1000;
+        this.maxSpeed = 1000.0;
     }
 
     @Override

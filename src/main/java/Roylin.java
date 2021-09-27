@@ -7,7 +7,7 @@ public class Roylin implements Drivable, Domesticatable, Tradable {
 
     @Override
     public String sound() {
-        return "YESSSS I 4.0 this test!"
+        return "YESSSS I 4.0 this test!";
     }
 
     @Override

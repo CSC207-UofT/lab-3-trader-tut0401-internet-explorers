@@ -25,7 +25,7 @@ public class Lion implements Drivable, Domesticatable, Tradable{
 
     @Override
     public void downgradeSpeed() {
-        this.maxSpeed--;
+        this.maxSpeed -= 10;
     }
 
     @Override

@@ -10,7 +10,6 @@ public class LionTest {
     public void setUp() throws Exception {
         l = new Lion();
     }
-
     @Test(timeout = 50)
     public void TestSound() {
         assertEquals("ROAAARRRR", l.sound());

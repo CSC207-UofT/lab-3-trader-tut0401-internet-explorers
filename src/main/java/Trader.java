@@ -97,7 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                new Ian());)
+                new Ian());
 
         /* Below, we've created two Traders. Their money, inventory, and
          * wishlists are randomly generated (see the constructor above).

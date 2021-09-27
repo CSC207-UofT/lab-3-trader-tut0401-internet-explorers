@@ -27,7 +27,7 @@ public class Akshay implements Tradable, Domesticatable, Drivable {
 
     @Override
     public int getPrice() {
-        return 10;
+        return 1;
     }
 
     @Override

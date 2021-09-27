@@ -3,44 +3,45 @@
  * You should NOT modify this file!
  */
 
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 
-public class HorseTest {
-    Horse h;
+public class RoylinTest {
+    Roylin r;
 
     @Before
     public void setUp() throws Exception {
-        h = new Horse();
+        r = new Roylin();
     }
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Neigh!", h.sound());
+        assertEquals("YESSSS I 4.0 this test!", r.sound());
     }
-    
+
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, h.getMaxSpeed());
+        assertEquals(10, r.getMaxSpeed());
     }
-    
+
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        h.upgradeSpeed();
-        assertEquals(2, h.getMaxSpeed());
+        r.upgradeSpeed();
+        assertEquals(2, r.getMaxSpeed());
     }
-    
+
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        h.downgradeSpeed();
-        assertEquals(0, h.getMaxSpeed());
+        r.downgradeSpeed();
+        assertEquals(9, r.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(10, h.getPrice());
+        assertEquals(100, r.getPrice());
     }
 
 
